@@ -9,6 +9,9 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 
+const setupSwagger = require("./config/swagger")
+setupSwagger(app)
+
 /**
  * - Routes required
  */
