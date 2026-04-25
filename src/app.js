@@ -24,7 +24,7 @@ const transactionRoutes = require("./routes/transaction.routes")
  */
 
 app.get("/", (req, res) => {
-    res.send("Ledger Service is up and running")
+    res.redirect("/docs")
 })
 
 app.use("/api/auth", authRouter)

@@ -1,0 +1,10 @@
+name = "bank-backend"
+main = "server.js"
+compatibility_date = "2024-04-01"
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+# Add your environment variables here if they are not secrets
+#PORT = 3000
+
+# If you use secrets (like MONGO_URI), add them via 'npx wrangler secret put'
